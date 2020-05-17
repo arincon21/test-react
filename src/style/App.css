@@ -1,0 +1,99 @@
+
+.App-header {
+  background-color: #282c34;
+  padding: 50px 100px;
+}
+
+.search-input{
+  width: 500px;
+  position: relative;
+}
+
+.search-input img{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 10px;
+  top: 10px;
+}
+
+.search-input input{
+  border-radius: 5px;
+  border: 0px solid;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-container{
+  padding: 50px 100px;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  padding: 5px 0px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.flag{
+  height: 10px;
+  width: 20px;
+}
+
+.listContainer{
+  position: relative;
+  width: 215px;
+  float: left;
+  margin-right: 43px;
+}
+
+.titleList{
+  margin-bottom: 15px;
+  display: block;
+  font-weight: bold;
+}
+
+.modal-background{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    top: 0;
+}
+
+.modal{
+  height: 300px;
+    width: 600px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    position: relative;
+}
+
+.modal span{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.closeModal{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.flag-modal{
+  top: 100px;
+    width: 200px;
+    position: absolute;
+    right: 50px;
+    border: 1px solid;
+}
